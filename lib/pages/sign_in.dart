@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SignIn extends StatefulWidget {
   final VoidCallback show;
@@ -266,7 +267,7 @@ class _signinstate extends State<SignIn> {
                       padding: const EdgeInsets.only(bottom: 4),
                       child: Text(
                         'Continue with Google',
-                        style: TextStyle(
+                        style: GoogleFonts.poppins(
                           color: Colors.black,
                           fontSize: 18,
                           fontWeight: FontWeight.w400,
